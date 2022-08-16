@@ -72,7 +72,6 @@ jobs:
         uses: actions/upload-artifact@v2.2.3
         with:
           name: website
-          path: public/
 
 # Need to first create an empty gh-pages branch
 # see https://pkgdown.r-lib.org/reference/deploy_site_github.html
@@ -82,8 +81,6 @@ jobs:
    name: Checkout and deploy the website within the gh-pages repository
    runs-on: ubuntu-latest
    needs: build-website
-   permissions:
-     contents: write
    
    steps:
       - name: 🛎️ Checkout again
@@ -97,13 +94,11 @@ jobs:
          # Artifact name
          name: website # optional
          # Destination path
-         path: public/ # optional
 
       - name: 💎 Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages # The branch the action should deploy to.
-          folder: public/
           clean: true
           single-commit: true
