@@ -1,1 +1,1 @@
-Personal website using the Hugo Story template.
+Personal website using the Hugo Story template. 
