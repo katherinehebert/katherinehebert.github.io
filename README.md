@@ -1,2 +1,1 @@
-# katherinehebert
- Personal website
+Personal website using the Hugo Story template.
