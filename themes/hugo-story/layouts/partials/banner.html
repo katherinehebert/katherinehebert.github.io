@@ -1,0 +1,20 @@
+<!-- Banner -->
+<section class="banner {{ .style }}">
+    <div class="content">
+        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .button }}<ul class="icons">
+            <li><a href="https://twitter.com/hebert_kat" class="icon brands style2 fa-twitter"></a></li>
+            <li><a href="https://github.com/katherinehebert" class="icon brands style2 fa-github"></a></li>
+            <li><a href="https://orcid.org/0000-0001-7866-6775" class="icon brands style2 fa-orcid"></a></li>
+            <li><a href="https://scholar.google.com/citations?user=LRgKshoAAAAJ&hl=en" class="icon brands style2 fa-google"></a></li>
+        </ul>{{ end }}
+        {{ with .button }}<ul class="actions stacked">
+            <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a></li>
+        </ul>{{ end }}
+    </div>
+    {{ with .image }}<div class="image">
+        <img src="{{.}}" alt="Hugo Story" />
+    </div>{{end}}
+</section>

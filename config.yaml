@@ -1,0 +1,14 @@
+title: Katherine Hébert
+theme: hugo-story
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - section
+Params:
+  description: 
+  favicon: yes
+  logo: images/profile.jpeg
+  social:
+    email: katherine.hebert@usherbrooke.ca
+    github: https://github.com/katherinehebert/
+    twitter: https://twitter.com/hebert_kat

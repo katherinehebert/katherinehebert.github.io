@@ -1,0 +1,52 @@
+title : "Workshops & Tutorials"
+content: |
+  These are workshops and tutorials I have developed with friends to share what we have learned about programming and statistics.
+style: "style1 big onscroll-fade-in"
+items:
+  # feature item loop
+  - name : "Introduction to GitHub & GitHub Actions"
+    authors: "Pedro Henrique Pereira Braga & Katherine Hébert"
+    content : "A demonstration of GitHub Actions, which can automate workflows to build, test, and publish content in your repositories, including some tips about how to implement and troubleshoot actions that perform R code testing, Rmarkdown document rendering, and website publishing."
+    style : "style2 brands fa-github"
+    contentlink: "https://pedrohbraga.github.io/IntroGitHubActions-Workshop/presentation-en/IntroToGitHub_GitHubActions_QCBSRSym2022_KH_PHPB_en.html#1"
+    contentname: "Slides"
+    codelink: "https://github.com/pedrohbraga/IntroGitHubActions-Workshop"
+    sourcelink: "https://r.qcbs.ca/symposium/r-symposium-15/"
+
+  # feature item loop
+  - name : "Introduction to Shiny Apps"
+    authors: "Katherine Hébert, Andrew Macdonald, Jake Lawlor, Vincent Bellavance"
+    content : "This practical training covers the basics of Shiny app development. You’ll learn the principles of reactive programming, how to create interactive options and displays for your users, and how to layout and style your Shiny app."
+    style : "solid style2 major fa-browser"
+    contentlink: "https://bios2.github.io/posts/2021-06-22-introduction-to-shiny-apps/"
+    contentname: "Tutorial"
+
+  # feature item loop
+  - name : "Data Visualization"
+    authors: "Alex Arkilanian & Katherine Hébert"
+    content : "General principles of visualization and graphic design, and techniques of tailored visualization."
+    style : "solid style2 major fa-chart-bar"
+    contentlink: "https://docs.google.com/presentation/d/1c_YnHsU67fHxhvUvXLQOFchzAKeomjf7jfKJe_ez9jM/edit?usp=sharing"
+    contentname: "Slides"
+    codelink: "https://github.com/katherinehebert/BIOS2_DataViz"
+    sourcelink: "https://bios2.github.io/posts/2020-09-21-data-visualization"
+    
+  # feature item loop
+  - name : "Science Communication"
+    authors: "Gracielle Higino & Katherine Hébert"
+    content : "An overview of basic concepts of effective science communication and how social media can boost your research and extend your network."
+    style : "solid style2 major fa-hashtag"
+    contentlink: "https://bios2.github.io/posts/2020-06-15-science-communication/"
+    contentname: "Slides"
+    codelink: "https://bios2.github.io/posts/2020-06-15-science-communication"
+    sourcelink: "https://bios2.github.io/posts/2020-06-15-science-communication"
+
+  # feature item loop
+  - name : "Linking Community Ecology And Evolutionary Biology To Your Programming Skills"
+    authors: "Pedro Henrique P. Braga & Katherine Hébert"
+    content : "A quick dive into the various approaches used in community phylogenetics to detect evolutionary patterns in the assembly of ecological communities."
+    style : "solid style2 major fa-dna"
+    contentlink: "https://pedrohbraga.github.io/CommunityPhylogenetics-Workshop/CommunityPhylogenetics-Workshop.html"
+    contentname: "Tutorial"
+    codelink: "https://pedrohbraga.github.io/CommunityPhylogenetics-Workshop/CommunityPhylogenetics-Workshop.html"
+    sourcelink: "https://r.qcbs.ca/symposium/r-symposium-11/"
