@@ -12,3 +12,6 @@ Params:
     email: katherine.hebert@usherbrooke.ca
     github: https://github.com/katherinehebert/
     twitter: https://twitter.com/hebert_kat
+  marketing:
+    analytics:
+      google_analytics: 'G-4G022THGHT'
