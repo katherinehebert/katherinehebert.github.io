@@ -1,8 +1,11 @@
 {{ define "main" }}
 
 	{{ partial "banner" site.Data.banner }}
+	{{ partial "spotlight" site.Data.spotlight1 }}
+	{{ partial "spotlight" site.Data.spotlight3 }}
 	{{ partial "publications" . }}
 	{{ partial "items" site.Data.items }}
+	{{ partial "spotlight" site.Data.spotlight2 }}
 	{{ partial "template/footer" . }}
 
 {{ end }}

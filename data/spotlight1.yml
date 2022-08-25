@@ -1,10 +1,10 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "Spotlight"
+title : "How are animal populations changing in Québec?"
 content: |
-  This is a <strong>Spotlight</strong> element, and it's generally used &ndash; as its name implies &ndash; to spotlight a particular feature, subject, or pretty much whatever. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  This is a Shiny dashboard that allows you to interact with data about the size of animal populations in Québec, and to summarise population trends with an index of biodiversity change. I made this dashboard as a prototype in collaboration with Biodiversité Québec.
 button: 
-  label: "Learn More"
-  link: "#"
-image: "images/spotlight01.jpg"
+  label: "View the dashboard"
+  link: "https://coleo.biodiversite-quebec.ca/apps/tableaulpi/"
+image: "images/dashboard.png"

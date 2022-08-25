@@ -1,9 +1,9 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Spotlight"
+title : "Pollen cores to pushing boundaries: who is Margaret B. Davis?"
 content: |
-  This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  I only recently found out Margaret Davis has been using pollen cores to reconstruct past forest communities since the 1950s (!), in order to understand how ecological communities can respond to changing environments. Find out more in this short blog post I wrote for The Beagle, the Québec Centre for Biodiversity Science's blogging platform. 
 button: 
-  label: "Learn More"
-  link: "#"
-image: "images/spotlight02.jpg"
+  label: "Read More"
+  link: "https://lebeagle.qcbs.ca/blog/pollen-cores-to-pushing-boundaries-who-is-2/"
+image: "https://images.unsplash.com/photo-1628008043391-25c9ff0c3432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"

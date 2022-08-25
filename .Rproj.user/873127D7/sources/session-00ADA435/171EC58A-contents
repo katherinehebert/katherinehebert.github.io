@@ -1,8 +1,0 @@
-{{ define "main" }}
-
-	{{ partial "banner" site.Data.banner }}
-	{{ partial "publications" . }}
-	{{ partial "items" site.Data.items }}
-	{{ partial "template/footer" . }}
-
-{{ end }}
