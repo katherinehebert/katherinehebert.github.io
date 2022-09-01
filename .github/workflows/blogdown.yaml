@@ -1,0 +1,107 @@
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+      - cron: '0 0 * * *'
+      
+name: website-deployment
+
+jobs:
+  build-website:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.ACCESS_TOKEN }}
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    steps:
+      - name: 🛎️ Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+        
+      - name: Install npm
+        uses: actions/setup-node@v1
+
+      - name: Install postcss-cli and autoprefixer
+        run: |
+          npm install postcss-cli
+          npm install autoprefixer
+
+      - name: 💻 Setup R
+        uses: r-lib/actions/setup-r@v1
+
+      - name: 💻 Install pandoc and pandoc citeproc
+        uses: r-lib/actions/setup-pandoc@v1
+        with:
+          pandoc-version: '2.12'
+          
+      - name: Install TinyTeX
+        uses: r-lib/actions/setup-tinytex@v1
+        env:
+          # install full prebuilt version
+          TINYTEX_INSTALLER: TinyTeX
+          
+      - name: 💾 Cache R packages
+        uses: actions/cache@v2 # Must be v2 so it accepts the GITHUB_REF from the repository_dispatch
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key:  r-${{ hashFiles('DESCRIPTION') }}
+        
+      - name: 💻 Install R packages and dependencies if needed
+        run: |
+          Rscript -e 'list.of.packages <- c("blogdown"); 
+          new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]; 
+          if(length(new.packages) > 0) {  
+          install.packages(new.packages, dependencies = TRUE)   
+          print(paste0("The following package was installed:", new.packages))} else 
+          if(length(new.packages) == 0) {
+          print("All packages have been previously installed and fetched from cache.")}'
+          
+      - name: 💻 Install hugo
+        run: |
+          Rscript -e 'blogdown::install_hugo("0.83.1")'
+
+      - name: 🧶 Build site
+        run: |
+          Rscript -e 'blogdown::build_site(TRUE)'
+
+      - name: 🔺 Upload artifact containing the rendered website
+        uses: actions/upload-artifact@v2.2.3
+        with:
+          name: website
+          path: public/
+
+# Need to first create an empty gh-pages branch
+# see https://pkgdown.r-lib.org/reference/deploy_site_github.html
+# and also add secrets for an ACCESS_TOKEN
+
+  deploy-website:
+   name: Checkout and deploy the website within the gh-pages repository
+   runs-on: ubuntu-latest
+   needs: build-website
+   
+   steps:
+      - name: 🛎️ Checkout again
+        uses: actions/checkout@v2.3.1 # If you are using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+          
+      - name: 🔻 Download artifact containing the book
+        uses: actions/download-artifact@v1
+        with:
+         # Artifact name
+         name: website # optional
+         # Destination path
+         path: public/ # optional
+
+      - name: 💎 Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages # The branch the action should deploy to.
+          folder: public/
+          clean: true
+          single-commit: true
