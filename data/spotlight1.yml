@@ -1,10 +1,10 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "How are animal populations changing in Québec?"
+title : "How good are we at capturing biodiversity change?"
 content: |
-  This is a Shiny dashboard that allows you to interact with data about the size of animal populations in Québec, and to summarise population trends with an index of biodiversity change. I made this dashboard as a prototype in collaboration with Biodiversité Québec.
+  This is the first chapter of my Ph.D., in which we track how uncertainties in population abundance data can impact our ability to capture biodiversity change.
 button: 
-  label: "View the dashboard"
-  link: "https://coleo.biodiversite-quebec.ca/apps/tableaulpi/"
-image: "images/dashboard.png"
+  label: "Read more"
+  link: "https://doi.org/10.1002/ecy.4044"
+image: "images/pop-sims.png"

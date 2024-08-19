@@ -1,9 +1,9 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Pollen cores to pushing boundaries: who is Margaret B. Davis?"
+title : "Sharing is caring, and that goes for code too!"
 content: |
-  I only recently found out Margaret Davis has been using pollen cores to reconstruct past forest communities since the 1950s (!), in order to understand how ecological communities can respond to changing environments. Find out more in this short blog post I wrote for The Beagle, the Québec Centre for Biodiversity Science's blogging platform. 
+  I have loved GitHub ever since I figured out how to use it (and that took... a while). I love sharing code, working collaboratively, and reading and using code other people share. I had the very cool experience of co-writing a paper entirely on GitHub (!) with many brilliant people about how GitHub can accelerate research in ecology and evolution.
 button: 
-  label: "Read More"
-  link: "https://lebeagle.qcbs.ca/blog/pollen-cores-to-pushing-boundaries-who-is-2/"
-image: "https://images.unsplash.com/photo-1628008043391-25c9ff0c3432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+  label: "Read more"
+  link: "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14108"
+image: "images/github.png"

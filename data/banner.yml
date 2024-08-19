@@ -1,10 +1,10 @@
 ####################### Banner #########################
-style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+style: "style3 orient-left content-align-left invert image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Hi! I'm Katherine."
 subtitle: |
-  I use data, code, and ecological theory to improve our measurements of <b>biodiversity change</b>.
+  I use ecological theory, data, and programming to (try to!) improve our measurements of <b>biodiversity change</b>.
 content : |
-  Right now, I'm a Ph.D. candidate in the <a href = "https://ielab.recherche.usherbrooke.ca/home/">Integrative Ecology Lab</a> at Université de Sherbrooke. I'm also happy to be a <a href = "https://bios2.usherbrooke.ca/">BIOS2</a> fellow, and to be part of the <a href = "https://qcbs.ca/">Quebec Centre for Biodiversity Science</a>. <br><br> My research interests include biodiversity change, population synchrony, island biogeography, and community ecology.
+  I'm a Postdoctoral fellow in the <a href = "https://qbiodiversity.org/">Quantitative Biodiversity Lab</a> at McGill University. I'm also happy to be a <a href = "https://bios2.usherbrooke.ca/">BIOS2</a> fellow, and to be part of the <a href = "https://qcbs.ca/">Quebec Centre for Biodiversity Science</a>. <br><br> My research interests include biodiversity change, biodiversity indicators, population synchrony, island biogeography, and community ecology.
 button:
   label : "Keep Reading"
   link : "#publications"
