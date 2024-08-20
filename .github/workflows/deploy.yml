@@ -46,7 +46,6 @@ jobs:
     # Deploy to the github-pages environment
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     # Specify runner + deployment step
     steps:
@@ -58,3 +57,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: public
+          branch: gh-pages
