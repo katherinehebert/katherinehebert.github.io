@@ -26,7 +26,7 @@ jobs:
         run: Rscript -e 'blogdown::build_site()'
         
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v1
         id: artifact-upload-step
         with:
           name: github-pages
