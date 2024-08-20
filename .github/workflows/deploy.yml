@@ -30,6 +30,7 @@ jobs:
         id: artifact-upload-step
         with:
           name: github-pages
+          path: public/
 
   # Deploy job
   deploy:
