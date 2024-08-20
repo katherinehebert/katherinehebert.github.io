@@ -3,7 +3,7 @@ on:
      branches:
        - main
 
-name: deployblog
+name: deploy-website
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
         run: Rscript -e 'blogdown::build_site()'
       - uses: actions/upload-artifact@v4
         with:
-          name: github-pages
+          name: public
           path: public/
 
   # Deploy job
@@ -36,7 +36,7 @@ jobs:
 
     # Deploy to the github-pages environment
     environment:
-      name: github-pages
+      name: public
       url: ${{ steps.deployment.outputs.page_url }}
 
     # Specify runner + deployment step
