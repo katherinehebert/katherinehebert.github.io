@@ -1,7 +1,7 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "How well do we capture biodiversity change when our data is uncertain?"
+title : "How well do we capture biodiversity change when our data are uncertain?"
 content: |
   This is the first chapter of my Ph.D., in which we track how uncertainties in population abundance data can impact our ability to capture biodiversity change.
 button: 
