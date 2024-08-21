@@ -6,7 +6,7 @@ subtitle: |
 content : |
   I'm a Postdoctoral fellow in the <a href = "https://qbiodiversity.org/">Quantitative Biodiversity Lab</a> at McGill University. I'm also happy to be a <a href = "https://bios2.usherbrooke.ca/">BIOS2</a> fellow, and to be part of the <a href = "https://qcbs.ca/">Quebec Centre for Biodiversity Science</a>. <br><br> My research interests include biodiversity change, biodiversity indicators, population synchrony, island biogeography, and community ecology.
 button:
-  label : "Keep Reading"
+  label : "Read on"
   link : "#publications"
 image : "images/profile.jpeg"
 ---

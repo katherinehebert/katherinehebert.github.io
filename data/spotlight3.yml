@@ -1,9 +1,9 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "Pool diversity shapes unique island communities"
+title : "Species pool diversity shapes unique island communities."
 content: |
-  How does regional pool diversity shape unique island communities globally? Find out in this <i>Journal of Biogeography</i> blog post I wrote about my very first first-author article!
+  How does regional pool diversity shape unique mammal communities on islands globally? Find out in this <i>Journal of Biogeography</i> blog post I wrote about my very first first-author article!
 button: 
   label: "Read More"
   link: "https://journalofbiogeographynews.org/2021/09/04/pool-diversity-shapes-unique-island-communities/"

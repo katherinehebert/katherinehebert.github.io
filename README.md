@@ -15,3 +15,9 @@ To edit the content of the website,
 -   `themes/hugo-story/static/images` contains the images that can be inserted into the .yml files containing the content.
 
 -   `config.yml` contains contact info, and the information that is linked in the banner, etc.
+
+-   `themes/hugo-story/layouts/partials/publications.html` to add publications.
+
+-   `themes/hugo-story/assets/sass/libs/_vars.scss` to change the colour of text, buttons, hover links, backgrounds, etc.
+
+Does it need to be this complicated? Probably not. The convoluted structure of these website files is a direct result of me working on this in a very patchy way, and an unwillingness to deviate from the template in case it all breaks down. But as they say, if it isn't broken, don't fix it (until I break this website when I update it again someday soon. And that's the fun of it!!)
