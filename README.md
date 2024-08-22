@@ -20,4 +20,8 @@ To edit the content of the website,
 
 -   `themes/hugo-story/assets/sass/libs/_vars.scss` to change the colour of text, buttons, hover links, backgrounds, etc.
 
-Does it need to be this complicated? Probably not. The convoluted structure of these website files is a direct result of me working on this in a very patchy way, and an unwillingness to deviate from the template in case it all breaks down. But as they say, if it isn't broken, don't fix it (until I break this website when I update it again someday soon. And that's the fun of it!!)
+#### A note about deployment:
+
+- The deployment to GitHub Pages is set up in the Settings of this repo. You go in Settings > Pages, and set the website to deploy from a folder on the main branch (in this case, docs/). I build the website locally using blogdown::build_site(), which puts all the files in a "public/" folder. Then, I copy the contents of that folder into "docs/" manually (not the coolest workflow, but hey - it works), push to GitHub, and the deployment workflow is triggered.
+
+Does it all need to be this complicated? Probably not. The convoluted structure of these website files is a direct result of me working on this in a very patchy way, and an unwillingness to deviate from the template in case it all breaks down. But as they say, if it isn't broken, don't fix it (until I break this website when I update it again someday soon. And that's the fun of it!!)
