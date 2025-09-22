@@ -12,6 +12,8 @@ To edit the content of the website,
 
 -   `data/` folder contains the .yml files with the elements on the website.
 
+-   `themes/hugo-story/layouts/index.html` to add and reorder elements on the website.
+
 -   `themes/hugo-story/static/images` contains the images that can be inserted into the .yml files containing the content.
 
 -   `config.yml` contains contact info, and the information that is linked in the banner, etc.
