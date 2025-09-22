@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-centre onscroll-image-fade-in"
+id: "first"
+title : "Blitz the Gap in Canadian biodiversity data"
+content: |
+  Blitz the Gap (<a href = "https://blitzthegap.org/">blitzthegap.org</a>) is a Canada-wide bioblitz event to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNaturalist, we are still lacking data for a whole host of ecological and conservation applications.<br><br>In the summer of 2025, we designed "challenges" to ask iNaturalist users to help us fill these gaps - and they delivered! Check out the challenges, code tutorials, and more information on <a href = "https://pollocklab.github.io/blitz-the-gap/">pollocklab.github.io/blitz-the-gap</a>. Stay tuned for some cool analyses coming up this fall as the final observations roll in!
+button: 
+  label: "View on iNaturalist.ca"
+  link: "https://inaturalist.ca/projects/blitz-the-gap"
+image: "images/btg-inat.png"

@@ -1,25 +1,25 @@
-title: "Gallery"
+title: "My research"
 style: "style2 medium lightbox onscroll-fade-in"
 content: |
   This is a <strong>Gallery</strong> element. It can behave as a lightbox (when given the <code>lightbox</code> class), and you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-gallery">details</a>).
 pictures:
   - title: "Title"
     content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/01.jpg"
-    thumb: "images/gallery/thumbs/01.jpg"
+    image: "https://www.facetsjournal.com/cms/10.1139/facets-2024-0357/asset/images/facets-2024-0357_f3.jpg"
+    thumb: "https://www.facetsjournal.com/cms/10.1139/facets-2024-0357/asset/images/facets-2024-0357_f3.jpg"
     button: "Details"
     link: "www.google.ca"
 
   - title: "Title"
     content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/02.jpg"
-    thumb: "images/gallery/thumbs/02.jpg"
+    image: "https://ars.els-cdn.com/content/image/1-s2.0-S0006320725000448-gr3.jpg"
+    thumb: "https://ars.els-cdn.com/content/image/1-s2.0-S0006320725000448-gr3.jpg"
     button: "Details"
 
   - title: "Title"
     content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/03.jpg"
-    thumb: "images/gallery/thumbs/03.jpg"
+    image: "https://esajournals.onlinelibrary.wiley.com/cms/asset/89092d06-ffc8-4eb2-8525-ec489c907356/ecy4044-fig-0002-m.png"
+    thumb: "https://esajournals.onlinelibrary.wiley.com/cms/asset/89092d06-ffc8-4eb2-8525-ec489c907356/ecy4044-fig-0002-m.png"
     button: "Details"
 
   - title: "Title"

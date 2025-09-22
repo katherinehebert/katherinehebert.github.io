@@ -4,6 +4,15 @@ content: |
 style: "style1 big onscroll-fade-in"
 items:
   # feature item loop
+  - name : "Making sampling priority maps for Blitz the Gap"
+    authors: "Katherine Hébert"
+    content : "This is an example workflow to identify gaps in a biodiversity database (like GBIF or iNaturalist), and to generate raster maps where each cell is assigned a priority level for sampling in a bioblitz event. Each map will cross biodiversity priorities with accessibility to identify the cells that are easiest to sample while helping to fill a biodiversity data gap."
+    style : "solid style2 fa-map"
+    contentlink: "https://pollocklab.github.io/blitz-the-gap/workflows/tutorial.html"
+    contentname: "Tutorial"
+    codelink: "https://github.com/PollockLab/blitz-the-gap"
+    sourcelink: "https://pollocklab.github.io/blitz-the-gap/workflows/tutorial.html"
+  # feature item loop
   - name : "Introduction to GitHub & GitHub Actions"
     authors: "Pedro Henrique Pereira Braga & Katherine Hébert"
     content : "A demonstration of GitHub Actions, which can automate workflows to build, test, and publish content in your repositories, including some tips about how to implement and troubleshoot actions that perform R code testing, Rmarkdown document rendering, and website publishing."

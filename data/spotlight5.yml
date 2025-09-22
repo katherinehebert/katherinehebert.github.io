@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-right onscroll-image-fade-in"
+id: "first"
+title : "We're tracking a moving target - and we really need finer-scale indicators of biodiversity change!"
+content: |
+  With 2030 fast approaching, we need timely, actionable indicators to guide conservation. From our GEOBON 2023 workshop, we highlight a major gap in biodiversity indicators — the tools used to track species, ecosystems, and conservation progress. While global indicators like the Red List Index and Living Planet Index are useful, they aren't designed to detect the local, short-term changes that are crucial for meeting GBF 2030 targets. We share five recommendations to fill this gap!  
+button: 
+  label: "Read more"
+  link: "https://doi.org/10.1016/j.biocon.2025.111007"
+image: "images/indicatorgrid.png"

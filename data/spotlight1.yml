@@ -1,10 +1,10 @@
 ####################### Spotlight #########################
-style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+style: "style1 orient-left content-align-left image-position-left onscroll-image-fade-in"
 id: "first"
-title : "How well do we capture biodiversity change when our data are uncertain?"
+title : "So many indicators, not enough time. Which ones should we use to track change?"
 content: |
-  This is the first chapter of my Ph.D., in which we track how uncertainties in population abundance data can impact our ability to capture biodiversity change.
+  Biodiversity indicators may not sound flashy, but they are essential: they tell us whether our conservation and management strategies are working and where we need to adjust course. This paper is a window into the first year of my postdoc, which involved sorting through >100 biodiversity indicators in 6 months with over 70 collaborators! We show how (and why) we brought together scientists, government representatives, and practitioners in a collaborative process to recommend 15 indicators to track progress towards Québec’s 2030 Nature Plan 🌱, in alignment with the Global Biodiversity Framework 🌎.  
 button: 
   label: "Read more"
-  link: "https://doi.org/10.1002/ecy.4044"
-image: "images/pop-sims.png"
+  link: "https://www.facetsjournal.com/doi/full/10.1139/facets-2024-0357"
+image: "images/filtering-figure-white.png"
